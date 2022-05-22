@@ -1,0 +1,248 @@
+@charset "UTF-8";
+:root{
+  --mainGold : #FDC886; 
+  --roboto : 'Roboto', sans-serif;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    overflow-x: hidden;
+}
+.container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+	max-width: 1230px;
+}
+h1{
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 90px;
+}
+h2{
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 27px;
+}
+h3{
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 36px;
+}
+h4{
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 42px;
+    text-align: center;
+    color: #121212;
+    font-family: var(--roboto);
+}
+p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+}
+/* Main Header */
+.mainHeader {
+	background: #121212;
+	padding: 30px 0;
+	border-bottom: 2px solid #FFF;
+    position: sticky;
+    top: 0;
+}
+.mainHeader .navbar {
+	padding: 0;
+}
+.storeBtn {
+	padding: 15px 38px;
+	background: #FDC886;
+	border: 1px solid #FDC886;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 27px;
+	color: #121212;
+	border-radius: 100px;
+	margin-left: 40px;
+}
+.mainHeader .navbar-nav .nav-item{
+    margin: 0 12px;
+}
+.mainHeader .navbar-nav .nav-item a {
+	color: #FFF;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 27px;
+	padding: 0;
+}
+.toggleSearch {
+	background: none;
+	border: 0;
+}
+/* Banner Main */
+.bannermain {
+	background: #000;
+}
+.bannermain h1{
+    color: var(--mainGold);
+    margin-bottom: 10px;
+}
+.bannermain p{
+    color: #FFF;
+    margin: 0;
+}
+.bannerData {
+	padding-right: 0px;
+}
+/* listing Area */
+.listingArea{
+    padding: 45px 0;
+}
+
+.listHeading {
+  margin-bottom: 30px;
+}
+.listHeading h2 {
+  margin: 0;
+    font-family: var(--roboto);
+}
+.listHeading .tags {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 36px;
+  color: #868B90;
+    font-family: var(--roboto);
+}
+.listHeading .tags a {
+  text-decoration: underline;
+  color: #3F5260;
+}
+.listBlock{
+    margin-bottom: 48px;
+}
+.listBlock img {
+  margin-bottom: 15px;
+  border-radius: 6px;
+  width: 100%;
+}
+.listBlock .details p.author {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 36px;
+  color: #FDC886;
+  margin-bottom: 15px;
+}
+.listBlock .details  h3 {
+  margin-bottom: 15px;
+}
+.listBlock .details .postedOn a {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 36px;
+  color: #868B90;
+  text-decoration: none;
+}
+.listBlock.boxArea {
+	border: 2px solid #121212;
+	border-radius: 6px;
+	min-height: 332px;
+	padding: 0 75px;
+}
+.listBlock.boxArea .storeBtn {
+	border-radius: 6px;
+	padding: 0;
+	padding: 15px 35px;
+	margin: 0;
+	margin-top: 45px;
+}
+.readmore {
+	border: 1px solid #121212;
+	border-radius: 6px;
+	padding: 15px 38px;
+	font-size: 18px;
+	line-height: 21px;
+	font-weight: 500;
+    font-family: var(--roboto);
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    margin-bottom: 120px;
+}
+.readmore:hover{
+    background: #000;
+    color: #FFF;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+/* Footer */
+.footerMain{
+    background: #121212;
+    padding: 45px 0;
+}
+.footerMain h4 {
+	color: #FDC886;
+	text-align: left;
+	margin-bottom: 20px;
+    font-weight: 600;
+}
+.footerMain p {
+	color: #FFF;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 27px;
+	font-family: var(--roboto);
+}
+.dataSpacer {
+	padding: 0 45px;
+}
+.footerMenu ul {
+  padding: 0;
+  list-style-type: none;
+}
+.footerMenu ul li {
+  margin-bottom: 10px;
+}
+.footerMenu ul li a {
+  color: #FFF;
+  text-decoration: none;
+}
+.footerMenu ul li a:hover {
+  color: var(--mainGold );
+}
+.details{
+    /*margin-bottom: 60px;*/
+}
+.details p {
+  margin: 0;
+  font-weight: 700;
+  font-family: var(--roboto);
+  margin-bottom: 5px;
+}
+.details p a {
+  color: #FFF;
+  text-decoration: none;
+  font-weight: 400;
+}
+.details p a:hover {
+  color: var(--mainGold);
+}
+
+.socialLinks ul {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  justify-content: flex-end;
+}
+.socialLinks ul li {
+  margin-left: 32px;
+}
+.footerCopyRight p:first-child {
+	margin: 0 0 10px;
+	font-size: 22px;
+	font-weight: 500;
+}
+.footerCopyRight p.smallText {
+	margin: 0;
+	font-weight: 300;
+	font-style: italic;
+}

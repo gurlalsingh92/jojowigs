@@ -1,0 +1,238 @@
+@charset "UTF-8";
+@media only screen and (max-width:1365px){
+    h1 {
+	font-size: 55px;
+}
+    .bannermain img {
+	max-width: 100%;
+}
+}
+@media only screen and (max-width:1199px){
+    .listBlock.boxArea {
+	padding: 0 50px;
+}
+    .mainHeader .navbar-nav .nav-item a {
+	font-size: 16px;
+}
+    .storeBtn {
+	padding: 15px 30px;
+	font-size: 15px;
+	margin-left: 20px;
+}
+}
+@media only screen and (max-width:991px){
+      .mainHeader .navbar-toggler .navbar-toggler-icon {
+  width: 100%;
+  height: 3px;
+  background: #FFF;
+  display: block;
+  border-radius: 5px;
+  position: relative;
+}
+.mainHeader .navbar-toggler {
+	padding: 0;
+	width: 35px;
+	height: 35px;
+}
+.mainHeader .navbar-toggler .navbar-toggler-icon::before {
+  position: absolute;
+  top: -9px;
+  width: 100%;
+  height: 3px;
+  background: #FFF;
+  display: block;
+  border-radius: 5px;
+  content: "";
+}
+    .mainHeader .navbar-toggler .navbar-toggler-icon::after {
+  position: absolute;
+  bottom: -9px;
+  width: 100%;
+  height: 3px;
+  background: #FFF;
+  display: block;
+  border-radius: 5px;
+  content: "";
+}
+    .mainHeader .toggleSearch, .mainHeader .storeBtn {
+	display: none;
+}
+    #navbarSupportedContent {
+  margin-top: 15px;
+  border-top: 1px solid #FFF;
+  padding-top: 25px;
+}
+#navbarSupportedContent .navbar-nav {
+  margin: 0 !important;
+}
+#navbarSupportedContent .navbar-nav .nav-item {
+  padding: 0;
+  margin: 0 0 10px;
+  line-height: 35px;
+}
+#navbarSupportedContent .navbar-nav .nav-item a {
+  width: 100%;
+  text-decoration: none;
+  display: block;
+}
+    .footerMain .details {
+	margin-bottom: 60px;
+}
+    h1 {
+	font-size: 30px;
+	line-height: 1;
+}
+    .listHeading .tags {
+	font-size: 16px;
+}
+    .listBlock .details p.author {
+	font-size: 16px;
+	line-height: 27px;
+}
+    h3 {
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 27px;
+}
+    .listBlock .details .postedOn a {
+	font-size: 14px;
+}
+    .listBlock.boxArea {
+	min-height: 200px;
+	padding: 0 15px;
+}
+    .listBlock.boxArea .storeBtn {
+
+	padding: 15px 30px;
+	margin-top: 15px;
+}
+    h4 {
+	font-size: 22px;
+	line-height: 35px;
+}
+    .readmore {
+	margin-bottom: 70px;
+}
+    .dataSpacer {
+	padding: 0;
+}
+.footerMain p {
+	font-size: 13px;
+	line-height: 17px;
+}
+    .footerMenu ul li a {
+	font-size: 13px;
+	line-height: 1;
+}
+    .footerCopyRight p:first-child {
+	font-size: 18px;
+}
+    h4 {
+	font-size: 18px;
+	line-height: 20px;
+}
+    .socialLinks ul li {
+	margin-left: 22px;
+}
+}
+@media only screen and (max-width:767px){
+        .listBlock .details .postedOn a {
+	font-size: 16px;
+}
+    .mainHeader {
+        padding: 17px 0;
+    }
+    .mainHeader .navbar-brand img {
+        max-width: 130px;
+    }
+    h1 {
+	font-size: 32px;
+	line-height: 45px;
+}
+    .bannerData {
+  padding: 35px 10px;
+  text-align: center;
+}
+.bannerData p {
+  font-size: 14px;
+  line-height: 27px;
+}
+    h2 {
+	font-size: 24px;
+}
+    h3 {
+	font-size: 20px;
+}
+    .listHeading .tags {
+	font-size: 14px;
+	line-height: 25px;
+	text-align: center;
+	padding: 0 40px;
+	margin-top: 10px;
+}
+    .listBlock .details p.author {
+	font-size: 16px;
+}
+    .listBlock {
+	margin-bottom: 25px;
+}
+    .listBlock.boxArea {
+	padding: 0 70px;
+        min-height: 300px;
+}
+h4 {
+	font-size: 22px;
+	line-height: 27px;
+}
+    .storeBtn {
+
+	font-size: 16px;
+
+}
+    .dataSpacer {
+	padding: 0;
+}
+    .footerCopyRight {
+	margin-top: 60px;
+}
+.footerCopyRight p:first-child {
+	margin: 0 0 15px;
+	font-size: 20px;
+	line-height: 29px;
+}
+.footerCopyRight p.smallText {
+	font-size: 16px;
+	margin-bottom: 40px;
+	line-height: 27px;
+}
+    .socialLinks ul li {
+	margin-left: 24px;
+}
+    .socialLinks ul li:first-child{
+        margin-left: 0px;
+    }
+    .socialLinks ul {
+
+	justify-content: center;
+}
+    .footerMain .row:first-child {
+	flex-direction: column-reverse !important;
+}
+    .footerMain .row:first-child > div{
+        margin-bottom: 45px;
+    }
+    .footerMenu ul li a {
+	font-size: 16px;
+}
+    .footerMain h4 {
+
+	margin-bottom: 15px;
+}
+    .readmore {
+	font-size: 16px;
+}
+ .footerMain p {
+	font-size: 16px;
+}   
+  
+}
